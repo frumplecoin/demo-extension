@@ -1,0 +1,6 @@
+pxt_modules/
+node_modules/
+*.swp
+package-lock.json
+built/
+.DS_Store
