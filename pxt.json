@@ -1,0 +1,23 @@
+{
+    "name": "demo-extension",
+    "description": "Microphone addon test extension",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "logo.cpp",
+        "logo.ts",
+        "microphone.cpp",
+        "microphone.ts",
+        "microphonehw.cpp",
+        "speaker.ts",
+        "enums.d.ts",
+        "shims.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "disablesVariants": ["mbdal"]
+}
