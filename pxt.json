@@ -19,5 +19,7 @@
         "test.ts"
     ],
     "public": true,
-    "disablesVariants": ["mbdal"]
+    "disablesVariants": [
+        "mbdal"
+    ]
 }
