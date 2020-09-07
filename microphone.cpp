@@ -5,6 +5,7 @@
 #define MICROPHONE_MIN 52.0f
 #define MICROPHONE_MAX 120.0f
 
+// Split enums?
 enum class SoundType {
     //% block="loud"
     Loud = 0,
