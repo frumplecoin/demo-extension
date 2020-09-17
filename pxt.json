@@ -1,5 +1,6 @@
 {
     "name": "demo-extension",
+    "version": "0.1.0",
     "description": "Microphone addon test extension",
     "dependencies": {
         "core": "*"
@@ -19,7 +20,5 @@
         "test.ts"
     ],
     "public": true,
-    "disablesVariants": [
-        "mbdal"
-    ]
+    "disablesVariants": ["mbdal"]
 }
