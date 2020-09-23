@@ -2,9 +2,7 @@ namespace music {
 
 /**
 * Turn the on-board speaker on or off.
-*
 * Disabling the speaker resets the analog pitch pin to the default of P0.
-*
 * @param enabled whether the on-board speaker is enabled in addition to the analog pitch PIN
 */
 //% blockId=music_set_on_board_speaker_enable block="on-board speaker enable %enabled"

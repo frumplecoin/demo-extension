@@ -1,6 +1,6 @@
 {
     "name": "demo-extension",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Microphone addon test extension",
     "dependencies": {
         "core": "*"
@@ -9,6 +9,8 @@
         "README.md",
         "logo.cpp",
         "logo.ts",
+        "pins.cpp",
+        "pins.ts",
         "microphone.cpp",
         "microphone.ts",
         "microphonehw.cpp",
@@ -20,5 +22,7 @@
         "test.ts"
     ],
     "public": true,
-    "disablesVariants": ["mbdal"]
+    "disablesVariants": [
+        "mbdal"
+    ]
 }

@@ -22,3 +22,5 @@ input.onSound(SoundType.Quiet, function () {
 })
 input.setSoundThreshold(SoundType.Quiet, 30)
 input.setSoundThreshold(SoundType.Loud, 171)
+pins.touchSetMode(TouchTarget.P0, TouchTargetMode.Capacitative)
+pins.touchSetMode(TouchTarget.LOGO, TouchTargetMode.Resistive)
