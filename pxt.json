@@ -7,22 +7,19 @@
     },
     "files": [
         "README.md",
-        "logo.cpp",
-        "logo.ts",
-        "pins.cpp",
-        "pins.ts",
+        "input.cpp",
+        "input.ts",
         "microphone.cpp",
         "microphone.ts",
         "microphonehw.cpp",
-        "speaker.ts",
+        "music.ts",
+        "pins.cpp",
+        "pins.ts",
         "enums.d.ts",
         "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "disablesVariants": [
-        "mbdal"
-    ]
+    "public": true
 }

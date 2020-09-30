@@ -1,4 +1,9 @@
+// The fallback logic below still requires level detection.
+// It's only kept with a view to syncing with the common-packages in future.
+
 #include "pxt.h"
+
+#if MICROBIT_CODAL
 #include "LevelDetector.h"
 #include "LevelDetectorSPL.h"
 #include "DataStream.h"
@@ -48,3 +53,4 @@ codal::LevelDetectorSPL *getMicrophoneLevel() {
 }
 
 } // namespace pxt
+#endif

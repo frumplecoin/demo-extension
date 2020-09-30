@@ -24,10 +24,14 @@ namespace pins {
 
 //%
 void touchSetMode(TouchTarget name, TouchTargetMode mode) {
-    const auto pin = name == TouchTarget::LOGO ? &uBit.io.face : getPin((int)name);
+#if MICROBIT_CODAL
+    const auto pin = name == TouchTarget::LOGO ? &uBit.io.logo : getPin((int)name);
     if (pin) {
         pin->isTouched(mode == TouchTargetMode::Capacitative ? TouchMode::Capacitative : TouchMode::Resistive);
     }
+#else
+    target_panic(PANIC_VARIANT_NOT_SUPPORTED);
+#endif
 }
 
 }
