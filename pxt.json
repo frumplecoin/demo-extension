@@ -1,6 +1,6 @@
 {
     "name": "demo-extension",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "Microphone addon test extension",
     "dependencies": {
         "core": "*"
